@@ -1,0 +1,172 @@
+body{
+    
+
+.sh{
+background-color: black;
+color: rgb(237, 27, 27);
+list-style-type:none;
+overflow: hidden;
+
+font-family: "Bungee Spice", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+  
+
+}
+.li-menu{
+    float: right;
+}
+.a-menu{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+
+    padding: 20px;
+}
+.a-menu:hover{
+    background-color: rgb(207, 66, 5);
+}
+.column{
+width: 50%;
+float: left;
+text-align: center;
+}
+.profile{
+    width: 200px;
+    height:200px ;
+    border-radius: 200px;
+    object-fit: cover;
+}
+.social{
+    width: 25px;
+    padding: 5px;
+}
+.left{
+width: 20%;
+float: left;
+}
+.right{
+    width: 80%;
+    float: right;
+    list-style-type:none;
+}
+.fnt{
+   font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.row{
+    padding: 10px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.row:after{
+    display: table;
+    clear: both;
+    content: "";
+
+}
+.main-bar{
+    background-color: rgb(207, 66, 5);
+    display: block;
+    height: 20px;
+}
+.main-bar span{
+    background-color: black;
+    display: block;
+    height: 20px;
+}
+.cSharp{
+   width: 90%;
+   animation: cSharp 2s;
+}
+.htmlcss{
+    width: 70%;
+    animation: htmlcss 3s;
+ }
+ .js{
+    width: 70%;
+    animation: js 3s;
+ }
+ .python{
+    width: 30%;
+    animation: python 4s;
+ }
+
+
+@keyframes cSharp {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes htmlcss {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+.foot{
+    background-color: black;
+   
+  
+    height: 50px;
+  
+    overflow: hidden;
+    display: flex;
+  
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vl {
+    
+    border-left: 6px solid rgb(207, 66, 5);
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+.foot-element{
+   
+    object-fit: cover;
+   width: 5px;
+   
+   
+   
+}
+@media screen and ( max-width:800px){
+    .column     {
+        width:100%;
+    }
+    .foot{
+        flex-wrap: nowrap;
+    }
+}
